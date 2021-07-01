@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Resumen 3</title>
+</head>
+
+<body>
+    <h1>RESUMEN CAPITULO 3</h1>
+    <p>
+        Comenzamos con el uso de useState para obtener dos valores los cuales son availableNumbers
+        y setAvailableNumber, se utilizan para el valor inicial y el valor inicial de todos los numeros disponibles
+        en el rango de estrellas y de botones que tenemos en pantalla, guardando los numeros candidatos en una constante
+        y obtenemos setCandidatenums con el useState que el valor inicial de los numeros candidatos pueden serlo ya que
+        solo es una matriz vacia.
+        En lugar de pasar los valores a availableNumbers pasamos los atributos booleanos del componente PlayNumber y
+        creamos otra funcion llamada numberStatus esta funcion tomara un numero y nos devolvera cuatro
+        valores, se utilizara solo un numero si no esta en availableNumbers, declaramos if y hacemos una validación en
+        la matriz availableNumbers
+        y decimos si el numero no esta en la matriz availableNumbers y se usa un metodo include en una matriz
+        y con esto decimos si availableNumbers incluye Number es falso, se usa el numero y si el numero lo encuentra en
+        la
+        matriz availableNumbers se valida si es un candidato y por ultimo si no es un candidato es un availableNumbers,
+        el color del boton cambiara de
+        acuerdo a la contante colors que declaramos anteriormente para manejar los colores ne los numeros usando un
+        props.status para saber el estado del boton y asignarle un color
+        de acuerdo a las validaciones anteriores.
+    </p>
+
+</body>
+
+</html>

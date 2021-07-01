@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Resumen 4</title>
+</head>
+
+<body>
+    <h1>RESUMEN CAPITULO 4</h1>
+    <p>
+        Se define la funcion que nos devolvera el valor de el boton al que le demos click
+        esta funcion se llamara onNumberClick. Cuando hagamos click en un numero el estado del mismo cambia
+        y se lo envia a PlayNumber este es el componente en que vamos hacer click , tambien definimos el onClick el cual
+        es
+        un metodo de los botones el cual pasaremos la funcion onNumberClick asi como el estado
+        principal del boton al estado secundario cuando hagamos click e invoquemos a la funcion onNumberClick
+        el componente PlayNumber que recibe el nuevo estado del boton con el uso de props para acceder a onClick
+        de la siguiente manera props.onClick donde se va a invocar que fue establecido en el componente padre StarMatch
+        y se puede pasar
+        en que numero hemos realizado click como tambien el estado del mismo en lugar de calcular el estado nuevamente
+        lo pasamos
+        en props.state en el onNumberClick, esta recibe el numero en el que hemos dado click y el estado en el que se
+        encuentra al momento de dar click.
+    </p>
+</body>
+
+</html>
